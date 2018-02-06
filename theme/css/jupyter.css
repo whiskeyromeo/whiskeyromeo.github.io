@@ -1,0 +1,76 @@
+a.anchor-link:link {
+    text-decoration: none;
+    padding: 0 20px;
+    visibility: hidden
+}
+
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+    visibility: visible
+}
+
+p {
+    font-size: 14px;
+}
+
+.prompt.input_prompt {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.navbar>a {
+    color: darkblue !important;
+}
+
+header.page-header {
+    color: #800000;
+}
+
+a.brand {
+    color: darkblue !important;
+}
+
+.navbar.navbar-static-top,
+.navbar-inner {
+    background-color: #E5DFC6 !important;
+    background: linear-gradient(to bottom right, #E5DFC6, aliceblue) !important;
+}
+
+div.output_subarea>pre {
+    font-size: 12px;
+    background: none;
+    -ms-text-size-adjust: 100%;
+    border: none;
+}
+
+div.input_area>div.highlight.hl-ipython3>pre {
+    border: none;
+    background: none;
+}
+
+div.cell.border-box-sizing.code_cell.rendered {
+    background: linear-gradient(to bottom,cornsilk, #ffffff) !important;
+    padding: 0px;
+}
+
+div.input_area {
+    border: none !important;
+    background: none;
+}
+
+div.output_area {
+    border-top: 1px dashed rgb(184, 203, 221) !important;
+}
+
+div.cell.border-box-sizing.code_cell.rendered {
+    border: 1px solid aliceblue;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
