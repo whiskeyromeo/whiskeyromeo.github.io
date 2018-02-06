@@ -14,8 +14,9 @@ h6:hover .anchor-link {
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px;
 }
+
 
 .prompt.input_prompt {
     visibility: hidden;
